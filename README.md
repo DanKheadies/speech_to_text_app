@@ -1,6 +1,6 @@
 # speech_to_text_app
 
-A new Flutter project.
+A new Flutter project by Marcus Ng (https://www.youtube.com/watch?v=wDWoD1AaLu8).
 
 ## Getting Started
 

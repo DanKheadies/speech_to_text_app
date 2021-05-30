@@ -28,38 +28,45 @@ class SpeechScreen extends StatefulWidget {
 
 class _SpeechScreenState extends State<SpeechScreen> {
   final Map<String, HighlightedWord> _highlights = {
-    'flutter': HighlightedWord(
-      onTap: () => print('flutter'),
+    'blue': HighlightedWord(
+      onTap: () => print('blue'),
       textStyle: const TextStyle(
         color: Colors.blue,
         fontWeight: FontWeight.bold,
       ),
     ),
-    'voice': HighlightedWord(
-      onTap: () => print('voice'),
+    'green': HighlightedWord(
+      onTap: () => print('green'),
       textStyle: const TextStyle(
         color: Colors.green,
         fontWeight: FontWeight.bold,
       ),
     ),
-    'subscribe': HighlightedWord(
-      onTap: () => print('subscribe'),
+    'imagine chat': HighlightedWord(
+      onTap: () => print('daco taco flame'),
       textStyle: const TextStyle(
         color: Colors.red,
         fontWeight: FontWeight.bold,
       ),
     ),
-    'like': HighlightedWord(
-      onTap: () => print('like'),
+    'taco': HighlightedWord(
+      onTap: () => print('taco'),
       textStyle: const TextStyle(
-        color: Colors.blueAccent,
+        color: Colors.orange,
         fontWeight: FontWeight.bold,
       ),
     ),
-    'comment': HighlightedWord(
-      onTap: () => print('comment'),
+    'flame': HighlightedWord(
+      onTap: () => print('flame'),
       textStyle: const TextStyle(
-        color: Colors.green,
+        color: Colors.yellow,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+    'magic': HighlightedWord(
+      onTap: () => print('magic'),
+      textStyle: const TextStyle(
+        color: Colors.deepPurple,
         fontWeight: FontWeight.bold,
       ),
     ),
