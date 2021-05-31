@@ -43,21 +43,21 @@ class _SpeechScreenState extends State<SpeechScreen> {
       ),
     ),
     'imagine chat': HighlightedWord(
-      onTap: () => print('daco taco flame'),
+      onTap: () => print('imagine chat'),
       textStyle: const TextStyle(
         color: Colors.red,
         fontWeight: FontWeight.bold,
       ),
     ),
-    'taco': HighlightedWord(
-      onTap: () => print('taco'),
+    'imagine': HighlightedWord(
+      onTap: () => print('imagine'),
       textStyle: const TextStyle(
         color: Colors.orange,
         fontWeight: FontWeight.bold,
       ),
     ),
-    'flame': HighlightedWord(
-      onTap: () => print('flame'),
+    'chat': HighlightedWord(
+      onTap: () => print('chat'),
       textStyle: const TextStyle(
         color: Colors.yellow,
         fontWeight: FontWeight.bold,
